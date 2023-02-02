@@ -1,50 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Document</title>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Food, LLC</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Chicken</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Beef</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Sushi
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Oxygen&display=swap" rel="stylesheet">
+
+    <title>Global Health Bistro</title>
+  </head>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class=" float-start d-none d-lg-block"> <!--https://getbootstrap.com/docs/5.0/utilities/display/-->
+              <div id="logo-img" alt="logo image"></div>
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Chicken</a></li>
-              <li><a class="dropdown-item" href="#">Beef</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Sushi</a></li>
+            <div class="navbar-brand">
+              <a href="index.html"><h1>Global Health Bistro</h1></a>
+              <p>
+                <img
+                  src="images/hs_logo.jpeg" width="50px" height="50px"
+                  alt="health and safety certifcate stamp" style="border-radius: 50%;"/>
+                <span>Health & safety certified</span>
+              </p>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"> </span><!--sr-only (screenreader only) in video-->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>  <!--Navbar-header ends here-->
+
+          <div class="collapse navbar-collapse" id="collapse-nav" >
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li>
+                <a href="menu-categories.html">
+                  <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-certicate"></span><br class="hidden-xs">Awards
+                </a>
+              </li>
+              <li id="phone" class="hidden-xs">
+                <a href="tel:41002233422">
+                  <span>410011233322</span> </a><div>* We deliver</div>
+              </li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link enabled ">menu</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-</body>
+          </div>
+              
+        </div>
+      </nav>
+    </header>
+    
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.min.js.map"></script>
+
+
+
+  </body>
 </html>
+
+
