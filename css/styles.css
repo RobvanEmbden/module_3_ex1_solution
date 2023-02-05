@@ -16,6 +16,103 @@ body::before {
   right: 0;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(190, 177, 36);
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  color: #a76a2a;
+}
+
+section {
+  position: relative;
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+div {
+  background-color: sandybrown;
+  border: 2px solid brown;
+  margin: auto;
+}
+
+#container {
+  height: 1000px;;
+}
+
+.container .content {
+  height: 1000px;
+}
+.chicken {
+  float: right;
+  padding: 15px;
+  border: 1px solid #a76a2a;
+  background-color: rgb(236, 195, 12);
+}
+
+.beef {
+  float: right;
+  padding: 15px;
+  border: 1px solid #a76a2a;
+  background-color: rgb(236, 195, 12);
+}
+.sushi {
+  float: right;
+  padding: 15px;
+  border: 1px solid #a76a2a;
+  background-color: rgb(236, 195, 12);
+}
+.menu {
+  padding: 5px;
+  border: none;
+  background-color: sandybrown;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  margin: 0px;
+  height: 150px;
+  overflow: auto;
+  clear: right;
+}
+
+/* https://getbootstrap.com/docs/5.3/layout/containers/*/
+/* Large */
+@media (min-width: 992px) {
+  .column-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {
+  .colmn-md-6 {
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .colmn-md-12 {
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* Small */
+@media (max-width: 767px) {
+  .colmn-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
 
 @media (min-width: 576px) {
   body::before {
