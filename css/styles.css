@@ -16,18 +16,7 @@ body::before {
   right: 0;
 }
 
-/* .box {
-  background-color: rgb(70, 182, 220);
-  border: 1px solid blue;
-  min-height: 50px;
-  font-size: 2rem;
-} */
-.card-title {
-  text-align: center;
-}
-.nav-link {
-  text-align: center;
-}
+
 @media (min-width: 576px) {
   body::before {
     content: "SM";
