@@ -4,83 +4,144 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/bootstrap-utilities.css">
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Oxygen&display=swap" rel="stylesheet">
-
-    <title>Global Health Bistro</title>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>MOdule3_ex1</title>
   </head>
   <body>
-    <header>
-      <nav id="header-nav" class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <a href="index.html" class=" float-start d-none d-lg-block"> <!--https://getbootstrap.com/docs/5.0/utilities/display/-->
-              <div id="logo-img" alt="logo image"></div>
-            </a>
-            <div class="navbar-brand">
-              <a href="index.html"><h1>Global Health Bistro</h1></a>
-              <p>
-                <img
-                  src="images/hs_logo.jpeg" width="50px" height="50px"
-                  alt="health and safety certifcate stamp" style="border-radius: 50%;"/>
-                <span>Health & safety certified</span>
-              </p>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"> </span><!--sr-only (screenreader only) in video-->
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>  <!--Navbar-header ends here-->
-
-          <div class="collapse navbar-collapse" id="collapse-nav" >
-            <ul id="nav-list" class="nav navbar-nav navbar-right">
-              <li>
-                <a href="menu-categories.html">
-                  <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-certicate"></span><br class="hidden-xs">Awards
-                </a>
-              </li>
-              <li id="phone" class="hidden-xs">
-                <a href="tel:41002233422">
-                  <span>410011233322</span> </a><div>* We deliver</div>
-              </li>
-            </ul>
-          </div>
-              
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">Food, LLC</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+          aria-controls="nav"
+          aria-label="Expand navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link active" aria-current="page"
+                >Chicken</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active" aria-current="page">Beef</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active" aria-current="page">Sushi</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
-    
+      </div>
+    </nav>
 
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/index.js"></script>
-    <script src="js/bootstrap.min.js.map"></script>
+    <h1 class="card-title"  >Our menu</h1>
 
-
-
+    <div class="container">
+      <div class="card">
+      <div class="card-body bg-secondary">
+      <div class="row">
+        <div class="col">
+          <div class="card-body bg-secondary">
+            <h2 class="card-subtitle">Beef</h2>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+              molestiae nobis sequi voluptatem explicabo sunt quod tempora ducimus
+              nihil fuga hic voluptas modi, quae praesentium sint dolores
+              exercitationem fugit! Eveniet iure non explicabo commodi, totam
+              quibusdam voluptatem consequuntur dolor nemo vitae ipsa. Numquam sed in
+              earum minus accusamus accusantium, asperiores labore explicabo, esse
+              nemo quas quia quaerat harum consequuntur ut qui modi, reiciendis
+              repellat totam. Consequatur ducimus numquam enim a laborum quaerat,
+              officiis voluptatem deserunt, earum voluptate nihil perspiciatis
+              dolorem? Excepturi et temporibus ut, nesciunt blanditiis sint cumque
+              velit. Harum, molestiae. Unde molestiae culpa laboriosam perspiciatis
+              cupiditate illum, error consequuntur quae magni minus nesciunt hic
+              deleniti in quasi incidunt molestias fugit, quis nam excepturi commodi
+              ipsam. Est natus eos dolor perspiciatis nulla error minima quae
+              voluptatibus quaerat qui, aliquam alias tempore impedit dolorum harum
+              distinctio! Modi inventore aut nihil quos nemo incidunt, tenetur neque,
+              nulla, impedit consequatur odio ad sapiente ducimus magni. Quo
+              distinctio sit qui autem quia enim soluta magnam fuga mollitia dolorem?
+              Atque, consequuntur dolores sed praesentium reiciendis dolore quo soluta
+              dolorem odit ad suscipit veritatis modi provident laudantium nobis in id
+              inventore minus quas sit iure dolorum placeat distinctio? Laborum aut,
+              assumenda quam blanditiis possimus accusantium suscipit.
+            </div>
+        </div>
+        <div class="col">
+          <div class="card-body bg-secondary">
+            <h2 class="card-subtitle">Sushi</h2>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+              molestiae nobis sequi voluptatem explicabo sunt quod tempora ducimus
+              nihil fuga hic voluptas modi, quae praesentium sint dolores
+              exercitationem fugit! Eveniet iure non explicabo commodi, totam
+              quibusdam voluptatem consequuntur dolor nemo vitae ipsa. Numquam sed in
+              earum minus accusamus accusantium, asperiores labore explicabo, esse
+              nemo quas quia quaerat harum consequuntur ut qui modi, reiciendis
+              repellat totam. Consequatur ducimus numquam enim a laborum quaerat,
+              officiis voluptatem deserunt, earum voluptate nihil perspiciatis
+              dolorem? Excepturi et temporibus ut, nesciunt blanditiis sint cumque
+              velit. Harum, molestiae. Unde molestiae culpa laboriosam perspiciatis
+              cupiditate illum, error consequuntur quae magni minus nesciunt hic
+              deleniti in quasi incidunt molestias fugit, quis nam excepturi commodi
+              ipsam. Est natus eos dolor perspiciatis nulla error minima quae
+              voluptatibus quaerat qui, aliquam alias tempore impedit dolorum harum
+              distinctio! Modi inventore aut nihil quos nemo incidunt, tenetur neque,
+              nulla, impedit consequatur odio ad sapiente ducimus magni. Quo
+              distinctio sit qui autem quia enim soluta magnam fuga mollitia dolorem?
+              Atque, consequuntur dolores sed praesentium reiciendis dolore quo soluta
+              dolorem odit ad suscipit veritatis modi provident laudantium nobis in id
+              inventore minus quas sit iure dolorum placeat distinctio? Laborum aut,
+              assumenda quam blanditiis possimus accusantium suscipit.
+              </div>
+        </div>
+        <div class="col">
+          <div class="card-body bg-secondary">
+            <h2 class="card-subtitle">Sushi</h2>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+              molestiae nobis sequi voluptatem explicabo sunt quod tempora ducimus
+              nihil fuga hic voluptas modi, quae praesentium sint dolores
+              exercitationem fugit! Eveniet iure non explicabo commodi, totam
+              quibusdam voluptatem consequuntur dolor nemo vitae ipsa. Numquam sed in
+              earum minus accusamus accusantium, asperiores labore explicabo, esse
+              nemo quas quia quaerat harum consequuntur ut qui modi, reiciendis
+              repellat totam. Consequatur ducimus numquam enim a laborum quaerat,
+              officiis voluptatem deserunt, earum voluptate nihil perspiciatis
+              dolorem? Excepturi et temporibus ut, nesciunt blanditiis sint cumque
+              velit. Harum, molestiae. Unde molestiae culpa laboriosam perspiciatis
+              cupiditate illum, error consequuntur quae magni minus nesciunt hic
+              deleniti in quasi incidunt molestias fugit, quis nam excepturi commodi
+              ipsam. Est natus eos dolor perspiciatis nulla error minima quae
+              voluptatibus quaerat qui, aliquam alias tempore impedit dolorum harum
+              distinctio! Modi inventore aut nihil quos nemo incidunt, tenetur neque,
+              nulla, impedit consequatur odio ad sapiente ducimus magni. Quo
+              distinctio sit qui autem quia enim soluta magnam fuga mollitia dolorem?
+              Atque, consequuntur dolores sed praesentium reiciendis dolore quo soluta
+              dolorem odit ad suscipit veritatis modi provident laudantium nobis in id
+              inventore minus quas sit iure dolorum placeat distinctio? Laborum aut,
+              assumenda quam blanditiis possimus accusantium suscipit.
+              </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
   </body>
 </html>
-
-
